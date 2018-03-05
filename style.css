@@ -1,0 +1,142 @@
+/* General */
+body{
+    font-family: 'Raleway', sans-serif;
+    
+}
+/* Better box sizing */
+* {
+    box-sizing: border-box;
+    margin: 0; /*dlaczego musiałem dodać margin 0 jeśli jest normalize ? */
+}
+/* float clear */
+.cleaner{
+    clear: both;
+}
+
+
+/* HEADER */
+.page-header{
+    width: 100%;
+    background: #3498db;
+    height: 850px;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-nav{
+    padding-top: 55px;
+    display: block;
+}
+.page-header .nav-icon{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    float: right;
+}
+.nav-icon span{
+    width: 100%;
+    height: 10px;
+    background: white;
+    display: block;
+    margin-top: 5px;
+
+}
+.section-header{
+    text-align: center;
+    margin-top: 230px;
+    text-transform: uppercase;
+}
+.section-header h2{
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 92px;
+    color: #ecf0f1;
+}
+.section-header h1{
+    font-size: 60px;
+    font-weight: 700;
+    color:#ecf0f1;
+    line-height: 92px;
+}
+
+/* FEATURES */
+.features{
+    background:#ecf0f1;
+    height: 905px;
+
+}
+.about{
+    width: 1139px;
+    height: 580px;
+    background: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 12px;
+    
+}
+.about h3{
+    font-size: 40px;
+    font-weight: 300;
+    color: #2c3e50;
+    text-transform: uppercase;
+    padding-top: 75px;
+}
+.about img{
+    padding-top: 35px;
+}
+.about p{
+    width: 770px;
+    height: 580px;
+    line-height: 35px;
+    color: #2c3e50;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 35px;
+    
+}
+.button{
+    width: 279px;
+    height: 77px;
+    text-decoration: none;
+    background: #3498db;
+    border-radius: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 24px 70px;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+
+}
+
+
+/* PAGE FOOTER */
+
+.page-footer{
+    width: 100%;
+    height: 150px;
+    background: #2c3e50;
+    padding-top: 67px;
+}
+.footer-menu{
+    float: right;
+}
+
+.footer-menu a{
+    text-decoration: none;
+    line-height: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    color:#ecf0f1;
+    
+}
+.footer-menu li {
+    list-style:none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
